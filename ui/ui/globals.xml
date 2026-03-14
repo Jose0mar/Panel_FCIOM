@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <globals>
-    <display width="1024" height="600"/>
+    <api>
+    </api>
+
+    <consts>
+        <color name="accent"       value="0xE8620A" />
+        <color name="bg_screen"    value="0x070707" />
+        <color name="bg_sidebar"   value="0x0D0D0D" />
+        <color name="bg_header"    value="0x0F0F0F" />
+        <color name="bg_card"      value="0x111111" />
+        <color name="border_main"  value="0x191919" />
+        <color name="text_primary" value="0xD0D0D0" />
+        <color name="text_label"   value="0x3A3A3A" />
+        <color name="text_muted"   value="0x262626" />
+        <color name="text_off"     value="0x3C3C3C" />
+        <int name="pad_card"   value="20" />
+        <int name="pad_large"  value="26" />
+    </consts>
+
+    <styles>
+    </styles>
+
+    <subjects>
+    </subjects>
+
+    <images>
+    </images>
+
+    <fonts>
+    </fonts>
 </globals>

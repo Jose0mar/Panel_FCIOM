@@ -1,25 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+    <display width="1024" height="600"/>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+    <style name="style_bg">
+        <bg_color value="0x070707"/>
+    </style>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+    <style name="style_sidebar">
+        <bg_color value="0x0D0D0D"/>
+        <border_width value="2"/>
+        <border_color value="0x191919"/>
+        <border_side value="right"/>
+        <radius value="0"/>
+    </style>
 
-    <subjects>
-        <!-- Add <int>, <string>, or <float> subjects here -->
-    </subjects>
+    <style name="style_header">
+        <bg_color value="0x0F0F0F"/>
+        <border_width value="1"/>
+        <border_color value="0x191919"/>
+        <border_side value="bottom"/>
+        <radius value="0"/>
+    </style>
 
-    <images>
-        <!-- Add <file> or <data> tags here -->
-    </images>
+    <style name="style_nav_active">
+        <bg_color value="0x1A1A1A"/>
+        <border_width value="4"/>
+        <border_color value="0xE8620A"/>
+        <border_side value="left"/>
+        <radius value="0"/>
+    </style>
 
-    <fonts>
-        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-    </fonts>
+    <style name="style_nav_inactive">
+        <bg_color value="0x0D0D0D"/>
+        <border_width value="1"/>
+        <border_color value="0x191919"/>
+        <border_side value="bottom"/>
+        <radius value="0"/>
+    </style>
+
+    <style name="style_card">
+        <bg_color value="0x111111"/>
+        <border_width value="4"/>
+        <border_color value="0xE8620A"/>
+        <border_side value="left"/>
+        <radius value="0"/>
+    </style>
+
+    <style name="style_card_label">
+        <text_color value="0x3A3A3A"/>
+        <text_font value="lv_font_montserrat_12"/>
+        <text_letter_space value="3"/>
+    </style>
+
+    <style name="style_card_value">
+        <text_color value="0xD0D0D0"/>
+        <text_font value="lv_font_montserrat_22"/>
+    </style>
+
+    <style name="style_card_value_accent">
+        <text_color value="0xE8620A"/>
+        <text_font value="lv_font_montserrat_22"/>
+    </style>
+
+    <style name="style_clock">
+        <text_color value="0xD0D0D0"/>
+        <text_font value="lv_font_montserrat_30"/>
+        <text_letter_space value="4"/>
+    </style>
+
+    <style name="style_date">
+        <text_color value="0x2C2C2C"/>
+        <text_font value="lv_font_montserrat_10"/>
+        <text_letter_space value="3"/>
+    </style>
+
+    <style name="style_title">
+        <text_color value="0xD0D0D0"/>
+        <text_font value="lv_font_montserrat_16"/>
+        <text_letter_space value="4"/>
+    </style>
+
+    <style name="style_nav_label_active">
+        <text_color value="0xE8620A"/>
+        <text_font value="lv_font_montserrat_12"/>
+        <text_letter_space value="2"/>
+    </style>
+
+    <style name="style_nav_label_inactive">
+        <text_color value="0x3C3C3C"/>
+        <text_font value="lv_font_montserrat_12"/>
+        <text_letter_space value="2"/>
+    </style>
+
+    <style name="style_version">
+        <text_color value="0x262626"/>
+        <text_font value="lv_font_montserrat_10"/>
+        <text_letter_space value="3"/>
+    </style>
+
+    <style name="style_cfg_label_active">
+        <text_color value="0xD0D0D0"/>
+        <text_font value="lv_font_montserrat_14"/>
+        <text_letter_space value="3"/>
+    </style>
+
+    <style name="style_cfg_label_inactive">
+        <text_color value="0x484848"/>
+        <text_font value="lv_font_montserrat_14"/>
+        <text_letter_space value="3"/>
+    </style>
 </globals>
